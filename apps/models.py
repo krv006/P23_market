@@ -142,9 +142,3 @@ class SiteSettings(Model):
 
 # self qoyib qoyish kerak boladi slug da objects.all degan joyda
 
-
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/krv006/P23_market.git
-git push -u origin main
