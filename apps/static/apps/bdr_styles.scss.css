@@ -1,0 +1,7 @@
+@media (max-width: 1023px) {
+  .footer-body {
+    flex-direction: column; }
+    .footer-body .footer-body__right {
+      width: auto; }
+      .footer-body .footer-body__right .footer-menu {
+        display: flex; } }
