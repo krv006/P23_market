@@ -7,4 +7,4 @@ from apps.models import Product
 
 class ProductListView(ListView):
     queryset = Product.objects.all()
-    template_name = "apps/index.html"
+    template_name = "apps/product/index.html"
