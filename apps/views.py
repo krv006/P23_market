@@ -8,3 +8,8 @@ from apps.models import Product
 class ProductListView(ListView):
     queryset = Product.objects.all()
     template_name = "apps/product/index.html"
+
+
+class ProductTemplateView(TemplateView):
+    queryset = Product.objects.all()
+    template_name = "apps/product/main.html"
