@@ -6,7 +6,7 @@ from .models import Order, Product, Category, User, OrderItem, Address, ImagePro
 
 @admin.register(Category)
 class CategoryAdmin(DraggableMPTTAdmin):
-    pass
+    exclude = 'slug',
 
 
 @admin.register(Address)
@@ -21,7 +21,7 @@ class OrderAdmin(admin.ModelAdmin):
 
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
-    pass
+    exclude = 'slug',
 
 
 @admin.register(User)
@@ -41,7 +41,7 @@ class ImageProductAdmin(admin.ModelAdmin):
 
 @admin.register(Tag)
 class TagAdmin(admin.ModelAdmin):
-    pass
+    exclude = 'slug',
 
 
 @admin.register(SiteSettings)
